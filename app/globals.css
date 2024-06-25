@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+    margin: none;
+    padding: none;
+}
+
+.navbar {
+    height: 10px;
+    padding: 5px;
+}
+
+.navbar span:not(:first-child) {
+    float: right;
+    background: #ffc0cb88;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    transition: box-shadow, 0.5s;
+    border-radius: 5px;
+}
+
+.navbar span:first-child {
+    float: left;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navbar span:not(:first-child):hover {
+    box-shadow: 0 0 5px rgb(114, 114, 114);
+}
