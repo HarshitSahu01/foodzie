@@ -7,6 +7,7 @@ export default function page() {
         <p>Welcome to the Homepage</p>
         <p>This is the content of the home page.</p>
       </div>
+      
    
     </div>
   )
